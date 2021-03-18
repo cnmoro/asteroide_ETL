@@ -1,0 +1,42 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.RandomForest -P 100 -I 100 -num-slots 1 -K 0 -M 1.0 -V 0.001 -S 1 -depth 20 -num-decimal-places 10
+Relation:     arq_corrigido_diametro
+Instances:    271254
+Attributes:   14
+              A
+              E
+              I
+              OM
+              W
+              Q
+              PER_Y
+              H
+              DIAMETER
+              ALBEDO
+              MOID
+              N
+              PER
+              MA
+Test mode:    5-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+RandomForest
+
+Bagging with 100 iterations and base learner
+
+weka.classifiers.trees.RandomTree -K 0 -M 1.0 -V 0.001 -S 1 -depth 20 -do-not-check-capabilities -num-decimal-places 10
+
+Time taken to build model: 154.64 seconds
+
+=== Cross-validation ===
+=== Summary ===
+
+Correlation coefficient                  0.9478
+Mean absolute error                      0.6636
+Root mean squared error                  3.766 
+Relative absolute error                 21.0271 %
+Root relative squared error             39.9167 %
+Total Number of Instances           271254     
+

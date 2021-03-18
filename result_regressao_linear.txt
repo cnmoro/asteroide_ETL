@@ -1,0 +1,55 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.LinearRegression -S 0 -R 1.0E-8 -num-decimal-places 20 -batch-size 500
+Relation:     arq_corrigido_diametro
+Instances:    271254
+Attributes:   14
+              A
+              E
+              I
+              OM
+              W
+              Q
+              PER_Y
+              H
+              DIAMETER
+              ALBEDO
+              MOID
+              N
+              PER
+              MA
+Test mode:    20-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+
+Linear Regression Model
+
+DIAMETER =
+
+-1.2587090014781905 * A +
+30.08956527792148 * E +
+0.003498141545245607 * I +
+-0.0004163755775638865 * W +
+21.043552615372064 * Q +
+0.030618016303293423 * PER_Y +
+-4.420633778970651 * H +
+-23.634056218681376 * ALBEDO +
+-13.402099901918502 * MOID +
+53.44638702931161 * N +
+0.00009310637280488654 * PER +
+-0.000531593414893219 * MA +
+31.279435711563544
+
+Time taken to build model: 0.41 seconds
+
+=== Cross-validation ===
+=== Summary ===
+
+Correlation coefficient                  0.6605
+Mean absolute error                      2.6902
+Root mean squared error                  7.0841
+Relative absolute error                 85.2361 %
+Root relative squared error             75.0866 %
+Total Number of Instances           271254     
+
