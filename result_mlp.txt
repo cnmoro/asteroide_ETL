@@ -1,0 +1,163 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.MultilayerPerceptron -L 0.3 -M 0.2 -N 500 -V 0 -S 0 -E 20 -H a
+Relation:     arq_corrigido_diametro
+Instances:    271254
+Attributes:   14
+              A
+              E
+              I
+              OM
+              W
+              Q
+              PER_Y
+              H
+              DIAMETER
+              ALBEDO
+              MOID
+              N
+              PER
+              MA
+Test mode:    20-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Linear Node 0
+    Inputs    Weights
+    Threshold    2.892653421860335
+    Node 1    -1.8157078978729693
+    Node 2    -0.643351588921934
+    Node 3    -0.43458064697798243
+    Node 4    -0.8407782294892497
+    Node 5    0.14973062683809354
+    Node 6    -0.41153426991331654
+    Node 7    -3.8350041249254643
+Sigmoid Node 1
+    Inputs    Weights
+    Threshold    -0.984754932253323
+    Attrib A    1.7052571394387113
+    Attrib E    -0.00960681127010101
+    Attrib I    0.6703663274076711
+    Attrib OM    -0.3648179500133925
+    Attrib W    0.3295697366274924
+    Attrib Q    0.5344008933750468
+    Attrib PER_Y    2.108724751826681
+    Attrib H    0.23157677456821937
+    Attrib ALBEDO    0.6462883272342129
+    Attrib MOID    0.5339499416895472
+    Attrib N    0.43667395000636133
+    Attrib PER    2.1350324459257535
+    Attrib MA    0.23004243204800917
+Sigmoid Node 2
+    Inputs    Weights
+    Threshold    -0.8456125630565279
+    Attrib A    0.7881219044793081
+    Attrib E    -0.11597469866564242
+    Attrib I    0.19445631488147475
+    Attrib OM    -0.06373420701869405
+    Attrib W    0.05575664880197736
+    Attrib Q    0.27247311969306415
+    Attrib PER_Y    1.1002562170825987
+    Attrib H    0.4523162694278521
+    Attrib ALBEDO    0.6243732842110463
+    Attrib MOID    0.3445954356627687
+    Attrib N    0.3754942782461525
+    Attrib PER    1.0958630793001976
+    Attrib MA    0.08910179506795352
+Sigmoid Node 3
+    Inputs    Weights
+    Threshold    -0.8871486166193375
+    Attrib A    0.16121530313662627
+    Attrib E    0.06148155937209748
+    Attrib I    -0.027384817554546213
+    Attrib OM    0.0034702401071475277
+    Attrib W    0.032753630440063033
+    Attrib Q    0.0376066266910749
+    Attrib PER_Y    0.5082943250395879
+    Attrib H    0.5113875277705625
+    Attrib ALBEDO    0.558907331991771
+    Attrib MOID    0.05213434433181714
+    Attrib N    0.14759321946462758
+    Attrib PER    0.4985910141175536
+    Attrib MA    0.005639425387378051
+Sigmoid Node 4
+    Inputs    Weights
+    Threshold    -1.209069109798348
+    Attrib A    0.4592029541100751
+    Attrib E    -0.28867266147125825
+    Attrib I    -0.20449856924198784
+    Attrib OM    0.003072233541777913
+    Attrib W    -0.0019762348437401558
+    Attrib Q    -0.329312762477624
+    Attrib PER_Y    1.2270838125500134
+    Attrib H    0.3384620003877773
+    Attrib ALBEDO    0.4879642831058008
+    Attrib MOID    -0.3634866696097814
+    Attrib N    0.28764944743884074
+    Attrib PER    1.2090567594343016
+    Attrib MA    -0.09141003702567152
+Sigmoid Node 5
+    Inputs    Weights
+    Threshold    -0.045202700616533226
+    Attrib A    -0.11040052173987817
+    Attrib E    -0.2508469988427888
+    Attrib I    -0.2209646605005217
+    Attrib OM    -0.018291302124894045
+    Attrib W    -0.007695591399038691
+    Attrib Q    0.4938940592618823
+    Attrib PER_Y    -0.255944293015254
+    Attrib H    0.9538672687453558
+    Attrib ALBEDO    1.8422521798200109
+    Attrib MOID    0.5205636193813165
+    Attrib N    0.7383450588674803
+    Attrib PER    -0.3150142320291616
+    Attrib MA    0.001705016634585094
+Sigmoid Node 6
+    Inputs    Weights
+    Threshold    -0.9193185540480631
+    Attrib A    0.2600688903090867
+    Attrib E    -0.149956627799483
+    Attrib I    -0.013167231109439315
+    Attrib OM    -0.015953230750517876
+    Attrib W    -0.05868944157261835
+    Attrib Q    0.10811259231273578
+    Attrib PER_Y    0.5130942169236562
+    Attrib H    0.4340366886595685
+    Attrib ALBEDO    0.5398659498177589
+    Attrib MOID    0.12457445297015178
+    Attrib N    0.12366970857688891
+    Attrib PER    0.5475670750979877
+    Attrib MA    0.07462397029866594
+Sigmoid Node 7
+    Inputs    Weights
+    Threshold    5.6290809327731015
+    Attrib A    -0.40772948237813433
+    Attrib E    0.2300875015113966
+    Attrib I    0.08128021840104543
+    Attrib OM    0.017725076055194636
+    Attrib W    0.005395337394402076
+    Attrib Q    0.0740920474649997
+    Attrib PER_Y    -1.2036321106202723
+    Attrib H    6.535428137280719
+    Attrib ALBEDO    2.1461308990026033
+    Attrib MOID    -0.026411563042589282
+    Attrib N    -0.10267760403371815
+    Attrib PER    -1.2004347654485639
+    Attrib MA    -0.011818988641412214
+Class 
+    Input
+    Node 0
+
+
+Time taken to build model: 200.8 seconds
+
+=== Cross-validation ===
+=== Summary ===
+
+Correlation coefficient                  0.9876
+Mean absolute error                      0.6436
+Root mean squared error                  1.4879
+Relative absolute error                 20.391  %
+Root relative squared error             15.7705 %
+Total Number of Instances           271254     
+

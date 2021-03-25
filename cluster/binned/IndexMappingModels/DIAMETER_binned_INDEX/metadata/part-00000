@@ -1,0 +1,1 @@
+{"class":"org.apache.spark.ml.feature.StringIndexerModel","timestamp":1616632869260,"sparkVersion":"2.4.5","uid":"strIdx_cea9e5efc542","paramMap":{"outputCol":"DIAMETER_binned_INDEX","inputCol":"DIAMETER_binned","handleInvalid":"skip"},"defaultParamMap":{"outputCol":"strIdx_cea9e5efc542__output","stringOrderType":"frequencyDesc","handleInvalid":"error"}}

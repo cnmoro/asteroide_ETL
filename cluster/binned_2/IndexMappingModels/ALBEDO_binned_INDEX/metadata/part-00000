@@ -1,0 +1,1 @@
+{"class":"org.apache.spark.ml.feature.StringIndexerModel","timestamp":1616633283262,"sparkVersion":"2.4.5","uid":"strIdx_524ce0eafd04","paramMap":{"outputCol":"ALBEDO_binned_INDEX","handleInvalid":"skip","inputCol":"ALBEDO_binned"},"defaultParamMap":{"outputCol":"strIdx_524ce0eafd04__output","handleInvalid":"error","stringOrderType":"frequencyDesc"}}

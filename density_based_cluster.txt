@@ -1,0 +1,140 @@
+=== Run information ===
+
+Scheme:       weka.clusterers.MakeDensityBasedClusterer -M 1.0E-6 -W weka.clusterers.SimpleKMeans -- -init 0 -max-candidates 100 -periodic-pruning 10000 -min-density 2.0 -t1 -1.25 -t2 -1.0 -N 2 -A "weka.core.EuclideanDistance -R first-last" -I 500 -num-slots 1 -S 10
+Relation:     arq_corrigido_diametro
+Instances:    271254
+Attributes:   14
+              A
+              E
+              I
+              OM
+              W
+              Q
+              PER_Y
+              H
+              DIAMETER
+              ALBEDO
+              MOID
+              N
+              PER
+              MA
+Test mode:    evaluate on training data
+
+
+=== Clustering model (full training set) ===
+
+MakeDensityBasedClusterer: 
+
+Wrapped clusterer: 
+kMeans
+======
+
+Number of iterations: 37
+Within cluster sum of squared errors: 56536.53830067007
+
+Initial starting points (random):
+
+Cluster 0: 3.076406,0.132516,9.953112,165.23532,174.915935,2.668731,5.39602,14.1,5.124,0.141,1.65957,0.182658,1970.896483,30.368688
+Cluster 1: 2.238677,0.250604,6.419975,70.622248,273.61014,1.677656,3.349618,14.9,2.882,0.369,0.685728,0.29425,1223.447917,203.341944
+
+Missing values globally replaced with mean/mode
+
+Final cluster centroids:
+                         Cluster#
+Attribute    Full Data          0          1
+            (271254.0) (130197.0) (141057.0)
+============================================
+A               2.8177      2.789     2.8442
+E               0.1454     0.1467     0.1442
+I              10.2736    10.1746     10.365
+OM            169.7699   169.9379   169.6149
+W             181.7967   181.8047   181.7893
+Q               2.4055     2.3674     2.4406
+PER_Y           4.8918     4.9344     4.8524
+H              15.1451     15.146    15.1442
+DIAMETER        5.5182     5.4708      5.562
+ALBEDO          0.1304      0.134     0.1271
+MOID            1.4229     1.3847     1.4581
+N               0.2192     0.2225     0.2161
+PER          1786.7214  1802.3076  1772.3352
+MA             183.737    89.4735   270.7431
+
+
+
+Fitted estimators (with ML estimates of variance):
+
+Cluster: 0 Prior probability: 0.48
+
+Attribute: A
+Normal Distribution. Mean = 2.789 StdDev = 2.1213
+Attribute: E
+Normal Distribution. Mean = 0.1467 StdDev = 0.0783
+Attribute: I
+Normal Distribution. Mean = 10.1746 StdDev = 6.7499
+Attribute: OM
+Normal Distribution. Mean = 169.9379 StdDev = 102.7452
+Attribute: W
+Normal Distribution. Mean = 181.8047 StdDev = 103.693
+Attribute: Q
+Normal Distribution. Mean = 2.3674 StdDev = 0.5003
+Attribute: PER_Y
+Normal Distribution. Mean = 4.9344 StdDev = 36.2934
+Attribute: H
+Normal Distribution. Mean = 15.146 StdDev = 1.3769
+Attribute: DIAMETER
+Normal Distribution. Mean = 5.4708 StdDev = 10.422
+Attribute: ALBEDO
+Normal Distribution. Mean = 0.134 StdDev = 0.1119
+Attribute: MOID
+Normal Distribution. Mean = 1.3847 StdDev = 0.4963
+Attribute: N
+Normal Distribution. Mean = 0.2225 StdDev = 0.0546
+Attribute: PER
+Normal Distribution. Mean = 1802.3076 StdDev = 13256.1814
+Attribute: MA
+Normal Distribution. Mean = 89.4735 StdDev = 52.5231
+
+Cluster: 1 Prior probability: 0.52
+
+Attribute: A
+Normal Distribution. Mean = 2.8442 StdDev = 0.514
+Attribute: E
+Normal Distribution. Mean = 0.1442 StdDev = 0.0757
+Attribute: I
+Normal Distribution. Mean = 10.365 StdDev = 6.8293
+Attribute: OM
+Normal Distribution. Mean = 169.6149 StdDev = 102.7077
+Attribute: W
+Normal Distribution. Mean = 181.7893 StdDev = 103.3886
+Attribute: Q
+Normal Distribution. Mean = 2.4406 StdDev = 0.5285
+Attribute: PER_Y
+Normal Distribution. Mean = 4.8524 StdDev = 1.4535
+Attribute: H
+Normal Distribution. Mean = 15.1442 StdDev = 1.3856
+Attribute: DIAMETER
+Normal Distribution. Mean = 5.562 StdDev = 8.4208
+Attribute: ALBEDO
+Normal Distribution. Mean = 0.1271 StdDev = 0.1084
+Attribute: MOID
+Normal Distribution. Mean = 1.4581 StdDev = 0.5253
+Attribute: N
+Normal Distribution. Mean = 0.2161 StdDev = 0.057
+Attribute: PER
+Normal Distribution. Mean = 1772.3352 StdDev = 530.8838
+Attribute: MA
+Normal Distribution. Mean = 270.7431 StdDev = 51.5488
+
+
+Time taken to build model (full training data) : 3.04 seconds
+
+=== Model and evaluation on training set ===
+
+Clustered Instances
+
+0       56699 ( 21%)
+1      214555 ( 79%)
+
+
+Log likelihood: -37.60882
+
